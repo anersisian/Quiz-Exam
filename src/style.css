@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  padding: 2rem;
+  align-items: center;
+  margin-inline: auto;
+}
+
+button,
+select {
+  height: 3rem;
+  border: 1px solid #dce0e4;
+  border-radius: 0.25rem;
+}
